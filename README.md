@@ -1,4 +1,4 @@
-# Pathfind Algorithm Visualizer
+# Pathfinding Algorithm Visualizer
 
 Gives a visualization of how multiple pathfinding algorithms work, both weighted and unweighted
 
