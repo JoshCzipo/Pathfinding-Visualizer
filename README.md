@@ -1,8 +1,8 @@
-Pathfind Algorithm Visualizer
+# Pathfind Algorithm Visualizer
 
 Gives a visualization of how multiple pathfinding algorithms work, both weighted and unweighted
 
-Weighted vs Unweighted
+# Weighted vs Unweighted
 
 By default every square in the grid has a weight or a "cost" of one. Traveling to each node increases the total cost by its weight value. 
 You can press E on a square to increase its weight. Weighted algorithms like Dijkstra's and A* will find the path with the lowest cost. 
