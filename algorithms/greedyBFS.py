@@ -2,7 +2,7 @@ from settings import *
 import calculations
 import heapq
 
-class greedyBFS:
+class GreedyBFS:
     def __init__(self, gridObj, start, end):
         self.open_list = [(0, start)]
         self.visited = {start}
