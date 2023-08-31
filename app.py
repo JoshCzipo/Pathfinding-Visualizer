@@ -4,7 +4,7 @@ from buttonclass import MenuButton, SideButton, ExitButton
 from algorithms.AStar import AStar
 from algorithms.DFS import DFS
 from algorithms.BFS import BFS
-from algorithms.greedyBFS import greedyBFS
+from algorithms.greedyBFS import GreedyBFS
 from algorithms.Dijkstra import Dijkstra
 from algorithms.Bidirectional import Bidirectional
 import sys
@@ -195,7 +195,7 @@ class App:
             elif self.algorithm == 'Bidirectional':
                 algo = Bidirectional(self.gridObj, self.start, self.end)
             elif self.algorithm == 'Greedy':
-                algo = greedyBFS(self.gridObj, self.start, self.end)
+                algo = GreedyBFS(self.gridObj, self.start, self.end)
 
             algo.execute()
             self.started = False
