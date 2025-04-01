@@ -1,3 +1,9 @@
+# Setup
+```
+pip install pygame
+python main.py
+```
+
 # Pathfinding Algorithm Visualizer
 
 Gives a visualization of how multiple pathfinding algorithms work, both weighted and unweighted
